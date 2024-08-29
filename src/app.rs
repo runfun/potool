@@ -13,7 +13,10 @@ pub struct PotoolApp {
 impl PotoolApp {
     pub fn new() -> Self {
         PotoolApp {
-            state: Rc::new(RefCell::new(AppState { tasks: vec![] })),
+            state: Rc::new(RefCell::new(AppState {
+                tasks: vec![],
+                case_sensitive: false,
+            })),
         }
     }
 
@@ -29,8 +32,10 @@ impl PotoolApp {
             FilePickerWidget::file_picker("pot file", dialog::FileDialogType::BrowseFile, "*.pot");
         let out =
             FilePickerWidget::file_picker("output dir", dialog::FileDialogType::BrowseDir, "");
+        let mut cb_case = button::CheckButton::default().with_label("Case sensitive");
         flex.fixed(&pot.flex, 32);
         flex.fixed(&out.flex, 32);
+        flex.fixed(&cb_case, 32);
         flex.end();
 
         let mut pack = group::Pack::default()
@@ -57,7 +62,7 @@ impl PotoolApp {
             inner_flex.redraw();
         });
 
-        let state = self.state;
+        let state = Rc::clone(&self.state);
         btn_start.set_callback(move |_| {
             let pot_file = PathBuf::from(pot.buf.text());
             let datas = state.borrow_mut().datas();
@@ -67,7 +72,16 @@ impl PotoolApp {
                 .map(|d| PathBuf::from(format!("{}\\{}.po", out.buf.text(), d.1.to_str().unwrap())))
                 .collect::<Vec<_>>();
 
-            build_po(pot_file, src_files, out_files, "");
+            build_po(pot_file, src_files, out_files, "", state.borrow().case_sensitive);
+        });
+
+        let state = self.state;
+        cb_case.set_callback(move |cb| {
+            if cb.is_checked() {
+                state.borrow_mut().case_sensitive = true;
+            } else {
+                state.borrow_mut().case_sensitive = false;
+            }
         });
 
         app.run().unwrap();
@@ -76,6 +90,7 @@ impl PotoolApp {
 
 struct AppState {
     tasks: Vec<TaskWidget>,
+    case_sensitive: bool,
 }
 
 impl AppState {
