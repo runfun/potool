@@ -14,16 +14,9 @@ pub fn build_po(
     out_files: Vec<PathBuf>,
     msg_pattern: &str,
 ) {
-    // println!("{:#?}", pot_file);
-    // println!("{:#?}", src_files);
-    // println!("{:#?}", out_files);
-    // println!("{:#?}", msg_pattern);
-
     if !pot_file.exists() {
         return;
     };
-
-    let mut pot_parser = gd_parser::GDParser::from_file(&pot_file);
 
     for (src_file, out_file) in src_files.iter().zip(out_files.iter()) {
         if !src_file.exists() || out_file.to_str().unwrap().trim().is_empty() {
@@ -31,6 +24,7 @@ pub fn build_po(
         }
 
         let mut content = String::new();
+        let mut pot_parser = gd_parser::GDParser::from_file(&pot_file);
 
         let mut parser = LisParser::from_file(src_file);
         parser.set_msgid_pattern(msg_pattern);
@@ -60,3 +54,49 @@ pub fn build_po(
         fs::write(out_file, content).unwrap();
     }
 }
+
+#[cfg(test)]
+mod tests {
+
+    use super::*;
+
+    #[test]
+    fn it_works() {
+        let pot_file = PathBuf::from("test/res/journal_e0.pot");
+        let src_files = vec![
+            PathBuf::from("test/res/zh-Hans/Menus.ini"),
+            PathBuf::from("test/res/ja/Menus.ini"),
+            PathBuf::from("test/res/en/Menus.ini"),
+        ];
+        let out_files = vec![
+            PathBuf::from("test/out/zh_CN/journal_e0.po"),
+            PathBuf::from("test/out/ja/journal_e0.po"),
+            PathBuf::from("test/out/en/journal_e0.po"),
+        ];
+        let msg_pattern = String::new();
+        build_po(pot_file, src_files, out_files, msg_pattern.as_str());
+
+        assert_eq!(
+            get_hash(&PathBuf::from("test/out/zh_CN/journal_e0.po")),
+            "0dc7a5541b34718c709073e5e88acdcef7973e05278d657cb1a544de4c0d54e8"
+        );
+
+        assert_eq!(
+            get_hash(&PathBuf::from("test/out/ja/journal_e0.po")),
+            "657baf2940d3b24bb1d684720008a18f8304e59c414f3e716fb77927f99eb534"
+        );
+
+        assert_eq!(
+            get_hash(&PathBuf::from("test/out/en/journal_e0.po")),
+            "d2b2accd1611079d2a809a9a8225f40de1fc48cc367883cfcfdd045826fcc262"
+        );
+    }
+
+    fn get_hash(file: &PathBuf) -> String {
+        sha256::try_digest(file).unwrap()
+    }
+}
+
+// 0dc7a5541b34718c709073e5e88acdcef7973e05278d657cb1a544de4c0d54e8
+// 657baf2940d3b24bb1d684720008a18f8304e59c414f3e716fb77927f99eb534
+// d2b2accd1611079d2a809a9a8225f40de1fc48cc367883cfcfdd045826fcc262

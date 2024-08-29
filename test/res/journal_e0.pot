@@ -1,0 +1,211 @@
+# LANGUAGE translation for Max Journal for the following files:
+# res://scenes/journal_pages/e0_page00.tscn
+# res://scenes/journal_pages/e0_page01.tscn
+# res://scenes/journal_pages/e0_page02.tscn
+# res://scenes/journal_pages/e0_page03.tscn
+# res://scenes/journal_pages/e0_page04.tscn
+# res://scenes/journal_pages/e0_page05.tscn
+# res://scenes/journal_pages/e0_page06.tscn
+# res://scenes/journal_pages/e0_page07.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Max Journal\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: scenes/journal_pages/e0_page00.tscn
+msgid "E0_Page00_A"
+msgstr ""
+
+#: scenes/journal_pages/e0_page00.tscn
+msgid "E0_Page00_B"
+msgstr ""
+
+#: scenes/journal_pages/e0_page00.tscn
+msgid "E0_Page00_C"
+msgstr ""
+
+#: scenes/journal_pages/e0_page00.tscn
+msgid "E0_Page00_D"
+msgstr ""
+
+#: scenes/journal_pages/e0_page00.tscn
+msgid "E0_Page00_E"
+msgstr ""
+
+#: scenes/journal_pages/e0_page00.tscn
+msgid "E0_Page00_F"
+msgstr ""
+
+#: scenes/journal_pages/e0_page01.tscn
+msgid "E0_Page01_A"
+msgstr ""
+
+#: scenes/journal_pages/e0_page01.tscn
+msgid "E0_Page01_B"
+msgstr ""
+
+#: scenes/journal_pages/e0_page01.tscn
+msgid "E0_Page01_C"
+msgstr ""
+
+#: scenes/journal_pages/e0_page01.tscn
+msgid "E0_Page01_D"
+msgstr ""
+
+#: scenes/journal_pages/e0_page01.tscn
+msgid "E0_Page01_E"
+msgstr ""
+
+#: scenes/journal_pages/e0_page02.tscn
+msgid "E0_Page02_A"
+msgstr ""
+
+#: scenes/journal_pages/e0_page02.tscn
+msgid "E0_Page02_B"
+msgstr ""
+
+#: scenes/journal_pages/e0_page02.tscn
+msgid "E0_Page02_C"
+msgstr ""
+
+#: scenes/journal_pages/e0_page02.tscn
+msgid "E0_Page02_D"
+msgstr ""
+
+#: scenes/journal_pages/e0_page02.tscn
+msgid "E0_Page02_E"
+msgstr ""
+
+#: scenes/journal_pages/e0_page02.tscn
+msgid "E0_Page02_F"
+msgstr ""
+
+#: scenes/journal_pages/e0_page03.tscn
+msgid "E0_Page03_A"
+msgstr ""
+
+#: scenes/journal_pages/e0_page03.tscn
+msgid "E0_Page03_B"
+msgstr ""
+
+#: scenes/journal_pages/e0_page03.tscn
+msgid "E0_Page03_C"
+msgstr ""
+
+#: scenes/journal_pages/e0_page03.tscn
+msgid "E0_Page03_D"
+msgstr ""
+
+#: scenes/journal_pages/e0_page03.tscn
+msgid "E0_Page03_E"
+msgstr ""
+
+#: scenes/journal_pages/e0_page03.tscn
+msgid "E0_Page03_F"
+msgstr ""
+
+#: scenes/journal_pages/e0_page03.tscn
+msgid "E0_Page03_G"
+msgstr ""
+
+#: scenes/journal_pages/e0_page04.tscn
+msgid "E0_Page04_A"
+msgstr ""
+
+#: scenes/journal_pages/e0_page04.tscn
+msgid "E0_Page04_B"
+msgstr ""
+
+#: scenes/journal_pages/e0_page04.tscn
+msgid "E0_Page04_C"
+msgstr ""
+
+#: scenes/journal_pages/e0_page04.tscn
+msgid "E0_Page04_D"
+msgstr ""
+
+#: scenes/journal_pages/e0_page04.tscn
+msgid "E0_Page04_E"
+msgstr ""
+
+#: scenes/journal_pages/e0_page04.tscn
+msgid "E0_Page04_F"
+msgstr ""
+
+#: scenes/journal_pages/e0_page04.tscn
+msgid "E0_Page04_G"
+msgstr ""
+
+#: scenes/journal_pages/e0_page05.tscn
+msgid "E0_Page05_A"
+msgstr ""
+
+#: scenes/journal_pages/e0_page05.tscn
+msgid "E0_Page05_B"
+msgstr ""
+
+#: scenes/journal_pages/e0_page05.tscn
+msgid "E0_Page05_C"
+msgstr ""
+
+#: scenes/journal_pages/e0_page05.tscn
+msgid "E0_Page05_D"
+msgstr ""
+
+#: scenes/journal_pages/e0_page05.tscn
+msgid "E0_Page05_E"
+msgstr ""
+
+#: scenes/journal_pages/e0_page06.tscn
+msgid "E0_Page06_A"
+msgstr ""
+
+#: scenes/journal_pages/e0_page06.tscn
+msgid "E0_Page06_B"
+msgstr ""
+
+#: scenes/journal_pages/e0_page06.tscn
+msgid "E0_Page06_C"
+msgstr ""
+
+#: scenes/journal_pages/e0_page06.tscn
+msgid "E0_Page06_D"
+msgstr ""
+
+#: scenes/journal_pages/e0_page06.tscn
+msgid "E0_Page06_E"
+msgstr ""
+
+#: scenes/journal_pages/e0_page06.tscn
+msgid "E0_Page06_F"
+msgstr ""
+
+#: scenes/journal_pages/e0_page06.tscn
+msgid "E0_Page06_G"
+msgstr ""
+
+#: scenes/journal_pages/e0_page07.tscn
+msgid "E0_Page07_A"
+msgstr ""
+
+#: scenes/journal_pages/e0_page07.tscn
+msgid "E0_Page07_B"
+msgstr ""
+
+#: scenes/journal_pages/e0_page07.tscn
+msgid "E0_Page07_C"
+msgstr ""
+
+#: scenes/journal_pages/e0_page07.tscn
+msgid "E0_Page07_D"
+msgstr ""
+
+#: scenes/journal_pages/e0_page07.tscn
+msgid "E0_Page07_E"
+msgstr ""

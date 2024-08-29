@@ -1,4 +1,7 @@
-use std::{io::{BufRead, BufReader, Lines}, path::PathBuf};
+use std::{
+    io::{BufRead, BufReader, Lines},
+    path::PathBuf,
+};
 
 use super::pot_parser::{PotBlock, PotLineType, PotParser, MSGID_PREFIX, MSGSTR_PREFIX};
 
@@ -10,7 +13,7 @@ impl Iterator for GDParser {
     type Item = PotBlock;
 
     fn next(&mut self) -> Option<Self::Item> {
-        let mut result = None;
+        let result;
         let mut comment = String::new();
         let mut msgid = String::new();
         let mut msgstr = String::new();
@@ -36,7 +39,14 @@ impl Iterator for GDParser {
                     }
                 }
             } else {
-                break result;
+                if comment.is_empty() && msgid.is_empty() && msgstr.is_empty() {
+                    break None;
+                }
+                break Some(PotBlock {
+                    comment,
+                    msgid,
+                    msgstr,
+                });
             }
         };
     }

@@ -1,0 +1,212 @@
+# LANGUAGE translation for Max Journal for the following files:
+# res://scenes/journal_pages/e0_page00.tscn
+# res://scenes/journal_pages/e0_page01.tscn
+# res://scenes/journal_pages/e0_page02.tscn
+# res://scenes/journal_pages/e0_page03.tscn
+# res://scenes/journal_pages/e0_page04.tscn
+# res://scenes/journal_pages/e0_page05.tscn
+# res://scenes/journal_pages/e0_page06.tscn
+# res://scenes/journal_pages/e0_page07.tscn
+#
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Max Journal\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: scenes/journal_pages/e0_page00.tscn
+msgid "E0_Page00_A"
+msgstr "July 10, 2013"
+
+#: scenes/journal_pages/e0_page00.tscn
+msgid "E0_Page00_B"
+msgstr "I GOT ACCEPTED INTO BLACKWELL ACADEMY."
+
+#: scenes/journal_pages/e0_page00.tscn
+msgid "E0_Page00_C"
+msgstr "If words could dance this would be a rave. Even though I've never been to one. But who cares because I GOT INTO BLACKWELL ACADEMY! I didn't think I would be so excited since it's not like I didn't used to live in the same town. But when I saw the text from the Blackwell scholarship office, I could literally feel my pulse speed up."
+
+#: scenes/journal_pages/e0_page00.tscn
+msgid "E0_Page00_D"
+msgstr "I thought it was going to say, \"Sorry! Thanks for playing!\" It took me a few seconds before I read the whole thing. I guess I wanted to enjoy that last moment of blissful ignorance. And when I saw the first word, \"Congratulations...\" I think I screamed."
+
+#: scenes/journal_pages/e0_page00.tscn
+msgid "E0_Page00_E"
+msgstr "My mom cried, and my dad laughed. They're so weird. But they're happy and this means extra financial support because they don't have to pay anything to Blackwell. This means new clothes and if I can work it, a new laptop."
+
+#: scenes/journal_pages/e0_page00.tscn
+msgid "E0_Page00_F"
+msgstr "Oh, and I have to keep telling myself in caps that I AM GOING TO BLACKWELL ACADEMY."
+
+#: scenes/journal_pages/e0_page01.tscn
+msgid "E0_Page01_A"
+msgstr "August 18, 2013"
+
+#: scenes/journal_pages/e0_page01.tscn
+msgid "E0_Page01_B"
+msgstr "So this is it. I'm leaving Seattle to go back to Arcadia Bay. Usually people go to the High School closest to home. I suppose I am too, it's just I haven't lived there for 5 years. Out of all the best photography programs in the world, I choose to go to the smallest, back in a town I was excited about leaving."
+
+#: scenes/journal_pages/e0_page01.tscn
+msgid "E0_Page01_C"
+msgstr "Maybe I wanted to come back all along, just to see if Chloe and I are still even friends. But I do wish Chloe could have moved with us to Seattle... That city was made for her. When we would play pirates in our rooms and in the woods, it seemed like Seattle was that fabled faraway island of treasure and adventure that we were always seeking. With coffee shops."
+
+#: scenes/journal_pages/e0_page01.tscn
+msgid "E0_Page01_D"
+msgstr "But Seattle wasn't like a fable. Au contraire. Now Blackwell Academy seems more exotic to me than any other place in the world. To study photography under Mark Jefferson... SIGH. Insert hearts and flowers. Plus there will be cool diverse students from everywhere. It won't be like my high school now... I never really found a groove with my classmates. (Or boys...) I'm lucky I have a couple great friends here. But it's time to ship out."
+
+#: scenes/journal_pages/e0_page01.tscn
+msgid "E0_Page01_E"
+msgstr "So maybe Arcadia Bay will actually turn out to be the island of treasure and adventure I've been looking for..."
+
+#: scenes/journal_pages/e0_page02.tscn
+msgid "E0_Page02_A"
+msgstr "August 25, 2013"
+
+#: scenes/journal_pages/e0_page02.tscn
+msgid "E0_Page02_B"
+msgstr "Shit is krazy here. I didn't realize how much crap I had to pack until I had to pack all my crap. Mom and Dad are gettin' a little too excited I'm clearing out my room. Tho I caught mom crying when she was packing my shirts."
+
+#: scenes/journal_pages/e0_page02.tscn
+msgid "E0_Page02_C"
+msgstr "That made me want to cry like a little girl. And never leave Seattle. So instead of packing, I feel like burning all my clothes, then just raiding a thrift store to build up a new Max wardrobe over my junior year. Not that I even have an old Max wardrobe."
+
+#: scenes/journal_pages/e0_page02.tscn
+msgid "E0_Page02_D"
+msgstr "Nobody will know me except for Chloe and who knows how different we are now. So I can cut my hair, get a tat and some piercings... Maybe date a cute foreign exchange artiste from Paris or Rome. I can do anything. Unless I get busted."
+
+#: scenes/journal_pages/e0_page02.tscn
+msgid "E0_Page02_E"
+msgstr "And there will be so many supercool chances for my photography to get exposed! Thinking about that is when I get scared, but excited. And then I don't feel like crying at all. I get tingles down my arms, sensing the universe opening up for me. I can't wait to leave."
+
+#: scenes/journal_pages/e0_page02.tscn
+msgid "E0_Page02_F"
+msgstr "I just want things to be... different at Blackwell."
+
+#: scenes/journal_pages/e0_page03.tscn
+msgid "E0_Page03_A"
+msgstr "September 2, 2013, 12:07 am"
+
+#: scenes/journal_pages/e0_page03.tscn
+msgid "E0_Page03_B"
+msgstr "My first entry from my new dorm room the night before my first day at Blackwell. Whew! I haven't had any time to write or even take pictures since I got here. My shit is in boxes all over the room, which is small, but mine, and I never want to leave. I can't wait to decorate! I plan a whole wall o' photos. I did meet some of my dorm mates, tho I suck at remembering names so I won't bother right now. But I think I can already see who's going to be cool to me and who's not. It's a bitch trying to get settled into a new school and social scene after I finally found good friends in Seattle."
+
+#: scenes/journal_pages/e0_page03.tscn
+msgid "E0_Page03_C"
+msgstr "But I'm here now, and this is the start of my new life."
+
+#: scenes/journal_pages/e0_page03.tscn
+msgid "E0_Page03_D"
+msgstr "Sweet dreams."
+
+#: scenes/journal_pages/e0_page03.tscn
+msgid "E0_Page03_E"
+msgstr "September 3, 2013"
+
+#: scenes/journal_pages/e0_page03.tscn
+msgid "E0_Page03_F"
+msgstr "Blackwell sucks ass! I told myself not to whine so soon, but damn... The day started like Christmas morning. I barely had any dreams because I was so pumped to start my first official day of my new life. Like a dork I couldn't figure out what to wear, so I chose what was on the floor. I'm no good with names and faces right away, but I picked up some names like KateBrookeTaylorAlyssa..."
+
+#: scenes/journal_pages/e0_page03.tscn
+msgid "E0_Page03_G"
+msgstr "And how could I forget Victoria Chase? Rich, stylish, entitled. I could feel INSTANT JUDGMENT when she looked at my raggedy ass clothes. As if I'm at Blackwell to strike fashion poses... Maybe I'm being extra crispy sensitive, but I think Victoria wants life here to be like her own reality show. Ugh..."
+
+#: scenes/journal_pages/e0_page04.tscn
+msgid "E0_Page04_A"
+msgstr "So that wasn't fun along with my general social unease... I thought it would be easier being back. Call the waaahmbulance! I don't want this day to end all \"Woe Is Max\". It was incredible to walk across the green campus in the morning mist. I love the stone steps and brick walls of Blackwell. Everything is a picture waiting to be taken... Speaking of, at least one great thing did happen today: Mr. Jefferson's photography class. Sigh..."
+
+#: scenes/journal_pages/e0_page04.tscn
+msgid "E0_Page04_B"
+msgstr "There's more to tell but journal, forgive me, I'm truly wiped out."
+
+#: scenes/journal_pages/e0_page04.tscn
+msgid "E0_Page04_C"
+msgstr "September 4"
+
+#: scenes/journal_pages/e0_page04.tscn
+msgid "E0_Page04_D"
+msgstr "I have an assload of homework already. So much bullshit. At least give us noobs a day to acclimate. But, to prove I'm not a total loser, I made a new friend in my science class. His name is Warren Graham and he's a serious geek, plus he's dark and witty."
+
+#: scenes/journal_pages/e0_page04.tscn
+msgid "E0_Page04_E"
+msgstr "He comes across as kind of a know-it-all, but it turns out he does kind of know a lot. We talked about photographers, and he actually named a few I'd never heard of. We traded numbers and he'll be a good study partner (or a good friend). I'll need at least one based on the clique action here. I thought being 18 meant I didn't have to deal with this teenage drama anymore. I THOUGHT."
+
+#: scenes/journal_pages/e0_page04.tscn
+msgid "E0_Page04_F"
+msgstr "At least I get to research famous photographers for some of my homework. Mr. Jefferson assigned us a ton of reading, but this is exactly what I want to study. Jefferson is supercool and superchill."
+
+#: scenes/journal_pages/e0_page04.tscn
+msgid "E0_Page04_G"
+msgstr "He doesn't try to be too hip, just says what he thinks and expects us to as well. I think he's a genius. OMG I WANT TO MARRY HIM. Just joking. This one class is worth all the social dysfunction."
+
+#: scenes/journal_pages/e0_page05.tscn
+msgid "E0_Page05_A"
+msgstr "September 15"
+
+#: scenes/journal_pages/e0_page05.tscn
+msgid "E0_Page05_B"
+msgstr "Homework is kicking my ass. I bet the teachers grade harder just to stop you from feeling special. But Victoria Chase and her snob minions still front like they're honored guests of Blackwell. The bros here aren't that different. Nathan Prescott is Victoria's male clone, with way more money and attitude, if that's possible."
+
+#: scenes/journal_pages/e0_page05.tscn
+msgid "E0_Page05_C"
+msgstr "His family is the oldest in Arcadia Bay and I heard stories about them when I was a kid. The Prescotts give a shitload of bank to Blackwell, so Nathan acts like he literally owns the school. Yesterday during class, he put his feet on the desk, started texting and the teacher didn't say jack!"
+
+#: scenes/journal_pages/e0_page05.tscn
+msgid "E0_Page05_D"
+msgstr "I'd get suspended. But him and Victoria are part of this silly elite \"Vortex Club\" that puts on popular parties and so they get their way. It's good to be the king and queen."
+
+#: scenes/journal_pages/e0_page05.tscn
+msgid "E0_Page05_E"
+msgstr "I don't want to slam everybody. I do like Kate Marsh, she's down the hall and in one of my classes. She's so pretty AND sweet and friendly. It makes her more beautiful than the beeatches here like Victoria who think beauty is just your face and outfit. See? I'm already playing their drama games. No more!"
+
+#: scenes/journal_pages/e0_page06.tscn
+msgid "E0_Page06_A"
+msgstr "September 23"
+
+#: scenes/journal_pages/e0_page06.tscn
+msgid "E0_Page06_B"
+msgstr "Finally had a chance to take some actual shots around campus today. A perfect blue sky day. I always forget how great I feel after I take pictures when I've been slacking off. Speaking of pictures, Mr. Jefferson told us about the national \"Everyday Heroes\" photo contest he wants us all to enter."
+
+#: scenes/journal_pages/e0_page06.tscn
+msgid "E0_Page06_C"
+msgstr "The winner gets a trip to San Francisco and lots of publicity. He wants just one photograph from each student. This is exactly why I wanted to come to Blackwell and of course I'm scared shitless to enter. At least I have a couple weeks before the deadline in October. So I have plenty of time to stress and procrastinate. Sigh."
+
+#: scenes/journal_pages/e0_page06.tscn
+msgid "E0_Page06_D"
+msgstr "September 30"
+
+#: scenes/journal_pages/e0_page06.tscn
+msgid "E0_Page06_E"
+msgstr "I don't know whether I love it or hate it here. I'm trying to keep up with my science class of all things. Like I give a shit or even understand it. Good thing I know Warren. Too bad I can't clone him to take my place in class."
+
+#: scenes/journal_pages/e0_page06.tscn
+msgid "E0_Page06_F"
+msgstr "Ms. Grant is much cooler than the class. She explains particle physics so even boneheads like me can kinda understand. I love how she relates society to science and vice versa. I can tell she's committed and passionate about life. Unlike some of us in her class, but I'm trying to engage more, even if it means asking actual questions in class instead of hiding in the back. I'm just glad I'm not the only social misfit here."
+
+#: scenes/journal_pages/e0_page06.tscn
+msgid "E0_Page06_G"
+msgstr "Now how much homework are you avoiding?"
+
+#: scenes/journal_pages/e0_page07.tscn
+msgid "E0_Page07_A"
+msgstr "October. My favorite month. The best weather of the year. I love watching the leaves change color, turning into tiny flames. But it's still too damn hot (thanks global warming) and I can't bust out the big coats and sweaters or scary movies yet. Soon. Kate let me borrow \"The October Country\" by Ray Bradbury."
+
+#: scenes/journal_pages/e0_page07.tscn
+msgid "E0_Page07_B"
+msgstr "I haven't read much by him (which caused Warren to almost revoke my geek cred before I held up my copy of \"Battle Royale\") but he nails the autumn atmosphere of small towns. The last time I wore a Halloween costume was with Chloe... I have pictures in one of my old albums..."
+
+#: scenes/journal_pages/e0_page07.tscn
+msgid "E0_Page07_C"
+msgstr "I should find a real Halloween party to crash so I can experience some social mingling. It's that or a Vortex Club strokefest swimming party. Or is that backstrokefest? You so punny, Max."
+
+#: scenes/journal_pages/e0_page07.tscn
+msgid "E0_Page07_D"
+msgstr "At least I'm trying to climb out of my cocoon. I shouldn't expect my life to completely change after a few weeks of Blackwell Academy. As my parents love telling me on a loop, \"You have all the time in the world.\""
+
+#: scenes/journal_pages/e0_page07.tscn
+msgid "E0_Page07_E"
+msgstr "October 1"
+

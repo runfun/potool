@@ -1,8 +1,9 @@
 [package]
 name = "potool"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 dependencies = "A simple tool used to generate po file from pot files and translation files."
 
 [dependencies]
 fltk = { version = "^1.4", features = ["fltk-bundled"] }
+sha256 = "^1.5"
