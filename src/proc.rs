@@ -13,6 +13,7 @@ pub fn build_po(
     src_files: Vec<PathBuf>,
     out_files: Vec<PathBuf>,
     msg_pattern: &str,
+    case_scensitive: bool,
 ) {
     if !pot_file.exists() {
         return;
@@ -26,9 +27,10 @@ pub fn build_po(
         let mut content = String::new();
         let mut pot_parser = gd_parser::GDParser::from_file(&pot_file);
 
-        let mut parser = LisParser::from_file(src_file);
-        parser.set_msgid_pattern(msg_pattern);
-        parser.rebuild();
+        let mut parser = LisParser::from_file(src_file)
+            .set_case_sensitive(case_scensitive)
+            .set_msgid_pattern(msg_pattern)
+            .rebuild();
 
         loop {
             if let Some(block) = pot_parser.next() {
@@ -74,7 +76,7 @@ mod tests {
             PathBuf::from("test/out/en/journal_e0.po"),
         ];
         let msg_pattern = String::new();
-        build_po(pot_file, src_files, out_files, msg_pattern.as_str());
+        build_po(pot_file, src_files, out_files, msg_pattern.as_str(), false);
 
         assert_eq!(
             get_hash(&PathBuf::from("test/out/zh_CN/journal_e0.po")),
